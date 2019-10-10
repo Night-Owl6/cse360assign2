@@ -6,8 +6,8 @@ package cse360assign2;
 * Also return string and total value. 
 * 
 * website url to my  github repositories
-* https://github.com/ajaytiwari99/cse360assign2/tree/master/cse360assignment2/src/cse360assign2
-*
+* https://github.com/ajaytiwari99/cse360assign2
+* 
 * @author Ajay Tiwari
 * @classID	85141
 * @version Assignment 2
