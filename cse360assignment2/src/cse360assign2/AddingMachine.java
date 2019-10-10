@@ -4,6 +4,9 @@ package cse360assign2;
 * The AddingMachine program implements an application that
 * simply add and subtract "value" that its given. 
 * Also return string and total value. 
+* 
+* website url to my  github repositories
+* https://github.com/ajaytiwari99/cse360assign2/tree/master/cse360assignment2/src/cse360assign2
 *
 * @author Ajay Tiwari
 * @classID	85141
@@ -15,38 +18,58 @@ public class AddingMachine {
 	private int total;
 	private String history;
 	
+	/*
+	 * AddingMachine constructor 
+	 * sets initial value to total and history
+	 * 
+	 */	
+	
 	public AddingMachine () {
 		
 		total = 0;  // not needed - include for clarity
 		history = "0"; // not needed - include for clarity
 	}
 	
+	/*
+	 * returns the value of total
+	 * 
+	 */	
+	
 	public int getTotal () {
 		
 		return total;
 	}
 	
+	/*
+	 * @param Value, value is added to total
+	 * stores the calculation in history
+	 * 
+	 */	
+	
 	public void add (int value) {
-		
-		// adds the value to total
-		// stores the calculation in history
 		
 		total = total + value;
 		history = history + " + " + value;
 	}
 	
+	/*
+	 * @param value, value is subtracted from total
+	 * stores the calculation in history
+	 * 
+	 */
+	
 	public void subtract (int value) {
-		
-		// subtract the value to total
-		// stores the calculation in history
 		
 		total = total - value;
 		history = history + " - " + value;
 	}
 	
+	/*
+	 * @return history, stores all calculation in history
+	 * 
+	 */
+	
 	public String toString() {
-		
-		//keeps the history of transaction
 		
 		return history;
 	}
@@ -55,3 +78,4 @@ public class AddingMachine {
 		
 	}
 }
+
